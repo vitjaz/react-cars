@@ -1,0 +1,98 @@
+@import "./assets/constants.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  background-color: $dark;
+}
+
+.App {
+  padding: 15px 15px;
+
+  .wrapper {
+    max-width: 1250px;
+    background-color: $white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 0 40px;
+  }
+
+  .carsWrapper {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 24px;
+
+    @media screen and (max-width: 1170px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media screen and (max-width: 820px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .catAndSortWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .categoriesWrapper {
+    margin: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 20px;
+
+    div {
+      background-color: rgba($color: $dark, $alpha: 0.1);
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+
+    .active {
+      background-color: $dark;
+      color: $white;
+    }
+  }
+
+  .emptyCartWrapper {
+    padding: 50px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    img {
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: $primary-color;
+      color: $white;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      padding: 10px 15px;
+      font-size: 18px;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+  }
+
+  .notFoundWrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 50px 0;
+  }
+}

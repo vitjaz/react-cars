@@ -1,0 +1,80 @@
+@import '../../assets/constants.scss';
+
+.wrapper {
+  background-color: $white;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+
+
+  .nameBlock {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    .logo {
+      width: 54px;
+      height: 54px;
+      margin-right: 15px;
+    }
+
+    .siteName {
+      font-weight: 900;
+      color: #000000;
+    }
+
+    .siteSlogan {
+      color: rgba($color: #000000, $alpha: 0.5);
+      font-weight: 500;
+    }
+
+    @media screen and (max-width: 860px) {
+      .siteSlogan {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 670px) {
+      .logo {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: 570px) {
+      .siteName {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .cartButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: $primary-color;
+    color: $white;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 590px) {
+    .cartButton {
+      font-size: 16px;
+    }
+  }
+}
+
+.divider {
+  background-color: rgb(230, 230, 230);
+  width: 100%;
+  height: 1px;
+  margin: 0 auto;
+}

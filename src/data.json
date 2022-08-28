@@ -1,0 +1,92 @@
+[
+  {
+    "id": "01",
+    "title": "LADA Niva Legend Bronto",
+    "price": 1134000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-niva-legend-3dveri-1-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}],
+    "category": "cat_02",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "02",
+    "title": "LADA Largus Cross",
+    "price": 1378000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-largus-cross-1-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}],
+    "category": "cat_03",
+    "engine": [{"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "03",
+    "title": "LADA Niva Travel",
+    "price": 1232000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-niva-1-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_02",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "04",
+    "title": "LADA Vesta",
+    "price": 1506000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-vesta-1-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_04",
+    "engine": [{"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "05",
+    "title": "LADA Granta Cross",
+    "price": 971900,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-granta-cross-2-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_03",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "06",
+    "title": "LADA XRAY Cross",
+    "price": 1621000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-xray-cross-2-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_02",
+    "engine": [{"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "07",
+    "title": "LADA Vesta SW",
+    "price": 1568000,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-vesta-sw-2-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_03",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "08",
+    "title": "LADA Granta Хэтчбек",
+    "price": 1001800,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-granta-hatchback-2-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_05",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  },
+  {
+    "id": "09",
+    "title": "LADA Granta Drive Active",
+    "price": 947900,
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-granta-drive-active-2-model.jpg",
+    "transmission": [{ "id": "tr_01", "title": "МКПП"}, { "id": "tr_02", "title": "АКПП"}],
+    "category": "cat_04",
+    "engine": [{"id": "engine_01", "title": "1,3 л"}, {"id": "engine_02", "title": "1,5 л"}, {"id": "engine_03", "title": "1,8 л"}],
+    "countInCart": 0
+  }
+]

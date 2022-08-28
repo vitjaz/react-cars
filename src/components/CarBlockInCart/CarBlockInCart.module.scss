@@ -1,0 +1,69 @@
+@import '../../assets/constants.scss';
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba($color: $dark, $alpha: 0.2);
+
+  .carBlock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex: 8;
+
+    h2 {
+      font-size: 25px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    img {
+      width: 250px;
+      height: 140px;
+      border-radius: 10px;
+      user-select: none;
+    }
+  }
+
+  .counterBlock {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex: 2;
+
+    .plus, .minus {
+      font-size: 25px;
+      cursor: pointer;
+      color: $primary-color;
+    }
+
+    span {
+      font-size: 20px;
+      font-weight: bold;
+      user-select: none;
+    }
+  }
+
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+    flex: 2;
+  }
+
+  .deleteButton {
+    font-size: 25px;
+    cursor: pointer;
+    color: rgba($color: $dark, $alpha: 0.4);
+    transition: all 0.2s;
+    flex: 1;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}

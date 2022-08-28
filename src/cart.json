@@ -1,0 +1,29 @@
+[
+  {
+    "id": "01",
+    "title": "LADA Niva Legend Bronto",
+    "price": "1134000",
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-niva-legend-3dveri-1-model.jpg",
+    "transmission": { "id": "tr_01", "title": "МКПП"},
+    "engine": {"id": "engine_03", "title": "1,8 л"},
+    "count": 1
+  },
+  {
+    "id": "02",
+    "title": "LADA Largus Cross",
+    "price": "1378000",
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-largus-cross-1-model.jpg",
+    "transmission": { "id": "tr_01", "title": "МКПП"},
+    "engine": {"id": "engine_02", "title": "1,5 л"},
+    "count": 2
+  },
+  {
+    "id": "03",
+    "title": "LADA Niva Travel",
+    "price": "1232000",
+    "imageURL": "https://carsdo.ru/job/CarsDo/photo/model/lada-niva-1-model.jpg",
+    "transmission": { "id": "tr_02", "title": "АКПП"},
+    "engine": {"id": "engine_02", "title": "1,5 л"},
+    "count": 5
+  }
+]

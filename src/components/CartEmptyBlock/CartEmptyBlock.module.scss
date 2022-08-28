@@ -1,0 +1,25 @@
+@import "../../assets/constants.scss";
+
+.wrapper {
+  padding: 50px 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  img {
+    margin-top: 10px;
+  }
+
+  button {
+    background-color: $primary-color;
+    color: $white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+}
